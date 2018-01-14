@@ -1,28 +1,107 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  color: #474747; }
+
+html {
+  background: linear-gradient(to bottom right, rgba(0, 126, 173, 0.7) 10%, rgba(146, 200, 62, 0.7) 90%) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+#root {
+  margin: 0 auto;
+  max-width: 800px;
+  background: #f7f7f7;
+  min-height: 100%;
+  padding: 0 .5rem .5rem .5rem; }
+  @media (min-width: 800px) {
+    #root {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding: 0 2.5rem .5rem 2.5rem; } }
+
+.header {
   text-align: center;
-}
+  margin-bottom: 3rem; }
+  .header h4 {
+    font-weight: 200;
+    color: #dbd4d3; }
+  .header img {
+    max-width: 100%; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+.aboutus {
+  margin-bottom: 1.5rem; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+.findus {
+  margin-bottom: .5rem; }
+  .findus p {
+    margin-bottom: .5rem; }
 
-.App-title {
-  font-size: 1.5em;
-}
+.smoothies {
+  margin-bottom: 1.5rem; }
+  .smoothies h3 {
+    font-weight: 200;
+    text-align: center; }
+  .smoothies .link {
+    text-align: right;
+    font-size: .67rem; }
+  .smoothies ul {
+    white-space: nowrap;
+    overflow: scroll; }
+  .smoothies li {
+    display: inline-block;
+    padding: 15px; }
 
-.App-intro {
-  font-size: large;
-}
+.flavors {
+  margin-bottom: 1.5rem; }
+  .flavors h3 {
+    font-weight: 200;
+    text-align: center; }
+  .flavors .link {
+    text-align: right;
+    font-size: .67rem; }
+  .flavors ul {
+    white-space: nowrap;
+    overflow: scroll; }
+  .flavors li {
+    display: inline-block;
+    padding: 15px; }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+.flavorcard {
+  text-align: center; }
+  .flavorcard img {
+    border: solid black 1px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px; }
+
+.admin {
+  display: table;
+  margin-right: auto;
+  margin-left: auto; }
+  .admin .input-row {
+    display: table-row; }
+    .admin .input-row input {
+      display: table-cell;
+      padding-left: .5rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      height: 1.25rem;
+      vertical-align: bottom; }
+    .admin .input-row label {
+      display: table-cell;
+      text-align: right;
+      padding: 0 .33rem .75rem .33rem; }
+    .admin .input-row button {
+      border: 1px solid #999;
+      border-radius: 5px;
+      padding: .25rem 1.25rem;
+      background-color: white;
+      transition: .5s; }
+      .admin .input-row button:hover {
+        border: 1px solid #777;
+        background-color: #ccc; }

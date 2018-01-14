@@ -14,7 +14,7 @@ const renderHours = (info) => {
 export const Header = ({ info }) => {
     return (
         <div className='header'>
-            <img src="/img/Logo.png" />
+            <img src='/img/Logo.png' alt='Logo' />
             {renderHours(info)}
         </div>
     );

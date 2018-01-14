@@ -8,6 +8,7 @@ const renderFlavors = (flavors) => flavors.map((flavor) => {
     if(flavor.name !== 'unaval') {
         return <FlavorCard key={flavor._id} data={flavor} />
     }
+    return null;
 });
 
 export const Flavors = () => (

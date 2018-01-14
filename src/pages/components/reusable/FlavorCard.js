@@ -18,7 +18,7 @@ export default class FlavorCard extends Component {
     render() {
         return (
             <li className='flavorcard'>
-                <img src={this.state.src} onError={() => this.setState({src: '/img/flavor-cards/default.png'})}/>
+                <img alt={this.props.data.name} src={this.state.src} onError={() => this.setState({src: '/img/flavor-cards/default.png'})}/>
                 <p>{this.props.data.name}</p>
                 {this._type()}
             </li>

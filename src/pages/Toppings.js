@@ -5,6 +5,7 @@ export class Toppings extends Component {
     render() {
         return (
             <div>
+                <p><Link to='/'>Return</Link></p>
                 <p>Toppings</p>
             </div>
         );

@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Header } from './pages';
 import Routes from './router/Routes';
+import './App.css';
 
 const App = () => (
     <div>
