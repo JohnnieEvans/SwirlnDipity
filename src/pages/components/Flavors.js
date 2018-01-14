@@ -5,7 +5,7 @@ import { data } from '../../data/flavors';
 import FlavorCard from './reusable/FlavorCard';
 
 const renderFlavors = (flavors) => flavors.map((flavor) => {
-    if(flavor.name !== 'unaval') {
+    if(flavor.name !== 'unavail') {
         return <FlavorCard key={flavor._id} data={flavor} />
     }
     return null;

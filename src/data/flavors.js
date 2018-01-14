@@ -3,84 +3,84 @@ export const data = [
         _id: 0,
         name: 'Vanilla Ice Cream',
         type: 'icecream',
-        img: 'vanillaicecream.png'
+        img: 'vanillaicecream.jpg'
     },
     {
         _id: 1,
         name: 'Chocolate Ice Cream',
         type: 'icecream',
-        img: 'chocolateicecream.png'
+        img: 'chocolateicecream.jpg'
     },
     {
         _id: 2,
         name: 'Pineapple Dole Whip',
         type: 'sorbet',
-        img: 'pineappledolewhip.png'
+        img: 'pineappledolewhip.jpg'
     },
     {
         _id: 3,
         name: 'Raspberry Martini',
         type: 'sorbet',
-        img: 'raspberrymartini.png'
+        img: 'raspberrymartini.jpg'
     },
     {
         _id: 4,
         name: 'Salted Caramel',
         type: 'froyo',
-        img: 'saltedcaramel.png'
+        img: 'saltedcaramel.jpg'
     },
     {
         _id: 5,
-        name: 'Sugar Cookie',
-        type: 'froyo',
-        img: 'sugarcookie.png'
+        name: 'unavail',
+        type: 'na',
+        img: 'unavail.jpg'
     },
     {
         _id: 6,
         name: 'Candy Cane',
         type: 'froyo',
-        img: 'candycane.png'
+        img: 'candycane.jpg'
     },
     {
         _id: 7,
         name: 'Red Velvet',
         type: 'froyo',
-        img: 'redvelvet.png'
+        img: 'redvelvet.jpg'
     },
     {
         _id: 8,
-        name: 'Pistachio',
+        name: 'Gingerbread',
         type: 'froyo',
-        img: 'pistachio.png'
+        img: 'gingerbread.jpg'
     },
     {
         _id: 9,
         name: 'White Chocolate',
         type: 'froyo',
-        img: 'whitechocolate.png'
+        img: 'whitechocolate.jpg'
     },
     {
         _id: 10,
-        name: 'unaval',
+        name: 'unavail',
         type: 'na',
-        img: 'unaval.png'
+        img: 'unavail.jpg'
     },
     {
         _id: 11,
-        name: 'unaval',
+        name: 'unavail',
         type: 'na',
-        img: 'unaval.png'
+        img: 'unavail.jpg'
     },
     {
         _id: 12,
-        name: 'unaval',
+        name: 'unavail',
         type: 'na',
-        img: 'unaval.png'
+        img: 'unavail.jpg'
     },
     {
         _id: 13,
-        name: 'unaval',
+        name: 'unavail',
         type: 'na',
-        img: 'unaval.png'
+        img: 'unavail.jpg'
     }
 ];
