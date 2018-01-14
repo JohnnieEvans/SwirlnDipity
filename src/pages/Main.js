@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { FindUs, AboutUs, Smoothies, Flavors } from './components';
 
-export class Main extends Component {
-    render() {
-        return (
-            <div>
-                <p>Main</p>
-            </div>
-        );
-    }
-}
+export const Main = () => (
+    <div>
+        <AboutUs />
+        <Flavors />
+        <Smoothies />
+        <FindUs />
+    </div>
+);
